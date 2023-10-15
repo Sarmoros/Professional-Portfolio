@@ -37,13 +37,14 @@ header nav ul li {
 
 body {
     background-color: #fff7f8;
+    padding-left: 5px;
 }
 
 .picture {
     background-image: url(C:\Users\sarah\OneDrive\Desktop\Bootcamp\Professional-Portfolio\assets\images\flower.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
 }
@@ -66,6 +67,23 @@ p {
 section li {
     display: inline-block;
     margin-left: 50px;
+}
+
+.work img {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 40%;
+    width: 40%;
+}
+
+.work img:hover {
+    transition: transform 2s;
+    width:50%;
+    height: 50%;
+    background-color: purple;
 }
 
 @media screen and (max-width: 992px) {
