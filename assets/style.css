@@ -8,8 +8,8 @@
 header {
     background-color: #fae0e4;
     color: rgb(140, 8, 52);
-    
 }
+
 
 header h1 {
     display: inline-block;
@@ -39,6 +39,15 @@ body {
     background-color: #fff7f8;
 }
 
+.picture {
+    background-image: url(C:\Users\sarah\OneDrive\Desktop\Bootcamp\Professional-Portfolio\assets\images\flower.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
 .content h2 {
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -49,3 +58,30 @@ body {
     margin-top: 20px;
     
 }
+
+p {
+    font-size: 20px;
+}
+
+section li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background: white;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: lightcoral;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: lightblue;
+    }
+  }
