@@ -41,7 +41,7 @@ body {
 }
 
 .picture {
-    background-image: url(Professional-Portfolio\assets\images\flower.jpg);
+    background-image: url(./assets/images/flower.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
